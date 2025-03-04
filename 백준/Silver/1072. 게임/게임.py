@@ -19,7 +19,7 @@ while min < max:
         max = win_num
         result = win_num
         isChanged = True
-    # 승률이 변하지 않은 경우 더 높은 갚으로 승률이 변할 수 있는지 확인
+    # 승률이 변하지 않은 경우 더 높은 값으로 승률이 변할 수 있는지 확인
     else:
         min = win_num + 1
 
